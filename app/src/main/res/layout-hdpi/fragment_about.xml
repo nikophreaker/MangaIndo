@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.AboutFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/title"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25pt"
+            android:text="MANGAINDO" />
+        <TextView
+            android:id="@+id/desc"
+            android:layout_marginTop="50dp"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_below="@id/title"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:text="Build using manga api" />
+        <ImageView
+            android:id="@+id/ic2"
+            android:layout_below="@id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/git32px"/>
+        <TextView
+            android:id="@+id/desc2"
+            android:layout_toRightOf="@id/ic2"
+            android:layout_below="@id/desc"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:textStyle="bold"
+            android:text="febryardiansyah/manga-api"/>
+        <TextView
+            android:id="@+id/desc3"
+            android:layout_marginTop="50dp"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_below="@id/desc2"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:text="Android Development" />
+        <ImageView
+            android:id="@+id/ic"
+            android:layout_below="@id/desc3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/git32px"/>
+        <TextView
+            android:id="@+id/desc4"
+            android:layout_below="@id/desc3"
+            android:layout_toRightOf="@id/ic"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:textStyle="bold"
+            android:text=" nikophreaker/manga-api-testing "/>
+
+    </RelativeLayout>
+
+</FrameLayout>

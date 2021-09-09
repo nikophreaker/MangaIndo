@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Manga"
+        android:title="@string/manga"/>
+    <item
+        android:id="@+id/Chapters"
+        android:title="@string/chapters"/>
+    <item
+        android:id="@+id/Discuss"
+        android:title="@string/discuss"/>
+</menu>

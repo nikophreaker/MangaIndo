@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="yang_lalu">yang lalu</string>
+    <string name="input_keyword">input keyword</string>
+    <string name="pilih_genre">Pilih Genre :</string>
+    <string name="cari">Cari</string>
+</resources>

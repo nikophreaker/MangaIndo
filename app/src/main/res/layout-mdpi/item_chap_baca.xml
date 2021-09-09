@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ImageView
+        android:id="@+id/img_chap"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="475dp"
+        android:adjustViewBounds="true"/>
+<!--    <com.nikx.mangaindo.Zoomify-->
+<!--        android:id="@+id/img_chap"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:scaleType="fitXY"/>-->
+<!--    <com.nikx.mangaindo.tools.MyWebView-->
+<!--        android:id="@+id/img_chap"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+
